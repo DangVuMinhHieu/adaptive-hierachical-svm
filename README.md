@@ -28,4 +28,8 @@ Cú pháp
 python test.py test_src
 ```
 Trong đó test_src là đường dẫn đến feautures extract từ ảnh test (nên là features/vgg16_fc2/test/)
-```
+
+Ví dụ: Output khi test
+
+  
+![alt text](https://github.com/DangVuMinhHieu/adaptive-hierachical-svm/blob/master/demo/demo.png)
