@@ -1,5 +1,7 @@
 # adaptive-hierachical-svm
 
+### Dataset
+Lấy 10 lớp đầu tiên của dataset Caltech-256 với tỉ lệ train/test là 7/3  mỗi lớp
 ## Build model
 #### Sử dụng file generate_db.py để sinh tập file train và test
 Cú pháp: 
