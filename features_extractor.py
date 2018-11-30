@@ -34,7 +34,7 @@ def extract_features_from_src(src):
             img_path = line[:-1]
             print("[+] Read image  : ", img_path," id : ", i)
             if os.path.isfile(img_path) and img_path.find(".jpg") != -1:            
-                save_path = img_path.replace("images", "features/vgg16_fc2").replace(".jpg", ".npy")                                  
+                save_path = img_path.replace("images", "features/vgg16_fc2").replace(".jpg", ".npy")
                 print("[+] Extract feature from image : ", img_path)
                 features = extract_features(img_path)
                 save_features(save_path, features)
