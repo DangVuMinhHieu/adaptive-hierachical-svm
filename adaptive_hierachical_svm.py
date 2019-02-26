@@ -31,7 +31,9 @@ means = None
 print("This is my new change")
 b = 10 * 100
 print(b)
-
+print("This is something i changed")
+a=10 * 2
+print(a)
 #SVM Tree declaration
 class Node(object):
     def __init__(self, classes):        
