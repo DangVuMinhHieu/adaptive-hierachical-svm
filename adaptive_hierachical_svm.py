@@ -28,6 +28,10 @@ def calc(data):
 data = None  #Change train file here
 means = None
 
+print("This is something i changed")
+a=10 * 2
+print(a)
+
 #SVM Tree declaration
 class Node(object):
     def __init__(self, classes):        
